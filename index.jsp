@@ -1,12 +1,32 @@
 <!DOCTYPE html>
-<html lang="es">
-    <head>
-        <title>Control Usuario</title>
-        <meta charset="UTF-8"/>
-    </head>
-    <body>
-        <h1>Hola Mundo</h1>
-        Hoy es <%=new java.util.Date()%><br/>
-        <%= "Esto es un jsp"%>
-    </body>
+
+<html>
+
+
+
+
+<head>
+
+<title>
+
+login
+
+</title>
+
+
+
+</head>
+
+<form action="proceso.jsp" method="post">
+  <p>Email: <input type="text" name="email" size="30" required></p>
+  <p>Contraseña: <input type="password" name="password" size="30" required></p>
+
+  </p>
+  <p>
+    <input type="submit" value="Iniciar sesión">
+    
+  </p>
+</form>
+
+
 </html>
