@@ -1,7 +1,7 @@
 package es.uco.pw.display.useBean;
 
 import java.io.Serializable;
-import java.util.Date;
+
 
 public class CustomerBean implements Serializable{
 
@@ -12,7 +12,7 @@ public class CustomerBean implements Serializable{
     private String email="";
     private String nombre="";
     private String apellido="";
-    private Date fechaNacimiento=new Date();
+
 
     public String getEmail() {
         return email;
@@ -38,16 +38,7 @@ public class CustomerBean implements Serializable{
         this.apellido = apellido;
     }
 
-    public Date getFechaNacimiento() {
-        return fechaNacimiento;
-    }
-
-    public void setFechaNacimiento(Date fechaNacimiento) {
-        this.fechaNacimiento = fechaNacimiento;
-    }
-
-    public CustomerBean() {
-    }
+    
 
 
     

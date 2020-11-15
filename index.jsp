@@ -2,7 +2,8 @@
 
 <html lang="es">
     <head>
-        <title>login</title>
+        <title>Pagina Principal</title>
+        <meta charset="UTF-8"/>
     </head>
     <body>
 
