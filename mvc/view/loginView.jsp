@@ -15,7 +15,7 @@
     </head>
     <body>
 
-        <form action="proceso.jsp" method="post">
+        <form action="../control/loginController.jsp" method="post">
         	<label for="email">Email</label>
             <input type="text" name="email" size="30" required>
             <br>
