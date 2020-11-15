@@ -10,7 +10,7 @@
 
 <html lang="es">
     <head>
-        <title>Pagina Principal</title>
+        <title>Inicio de sesión</title>
         <meta charset="UTF-8"/>
     </head>
     <body>
