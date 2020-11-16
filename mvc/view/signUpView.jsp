@@ -27,16 +27,16 @@
             <label for="birthdate">Fecha de nacimiento</label>
             <input type="date" name="birthdate" required>
             <p> Intereses </p>
-     		    <label><input type="checkbox" name="lectura" value="first_checkbox"> Lectura</label>
-     		    <label><input type="checkbox" name="cine" value="first_checkbox"> Cine</label>
-     		    <label><input type="checkbox" name="deportes" value="first_checkbox"> Deportes</label>
-     		    <label><input type="checkbox" name="videojuegos" value="first_checkbox"> Videojuegos</label>
-     		    <label><input type="checkbox" name="musica" value="first_checkbox"> Música</label>
-     		    <label><input type="checkbox" name="series" value="first_checkbox"> Series</label>
-     		    <label><input type="checkbox" name="programacion" value="first_checkbox"> Programación</label>
-     		    <label><input type="checkbox" name="fotografia" value="first_checkbox"> Fotografía</label>
-     		    <label><input type="checkbox" name="pintura" value="first_checkbox"> Pintura</label>
-     		    <label><input type="checkbox" name="baile" value="first_checkbox"> Baile</label>
+     		    <label><input type="checkbox" name="interes" value="first_checkbox"> Lectura</label>
+     		    <label><input type="checkbox" name="interes" value="first_checkbox"> Cine</label>
+     		    <label><input type="checkbox" name="interes" value="first_checkbox"> Deportes</label>
+     		    <label><input type="checkbox" name="interes" value="first_checkbox"> Videojuegos</label>
+     		    <label><input type="checkbox" name="interes" value="first_checkbox"> Música</label>
+     		    <label><input type="checkbox" name="interes" value="first_checkbox"> Series</label>
+     		    <label><input type="checkbox" name="interes" value="first_checkbox"> Programación</label>
+     		    <label><input type="checkbox" name="interes" value="first_checkbox"> Fotografía</label>
+     		    <label><input type="checkbox" name="interes" value="first_checkbox"> Pintura</label>
+     		    <label><input type="checkbox" name="interes" value="first_checkbox"> Baile</label>
             
      		<br> <br>
             <input type="submit" value="Registrarse">   
