@@ -126,5 +126,35 @@ public class ContactoDAO extends DAO {
         return ret;
     }
 
+    public ContactoDTO ObtenerContactoByID(String email){
+        ContactoDTO ret = null;
+        try{
+            
+            Connection conect = getConection();
+            
+            Properties sqlProp = new Properties();
+            InputStream is = new FileInputStream("sql.properties");
+            sqlProp.load(is);
+            PreparedStatement ps = conect.prepareStatement(sqlProp.getProperty("getById.contacto"));
+            ps.setString(1, email);
+            ResultSet rs=ps.executeQuery();
+                 
+            while(rs.next()){
+                String _email=rs.getString(1);
+                String _nombre=rs.getString(2);
+                String _apellidos=rs.getString(3);
+                java.util.Date _fechaNacimiento = new java.util.Date(rs.getDate(4).getTime());
+                String _intereses=rs.getString(5);
+                ret=new ContactoDTO(_email, _nombre, _apellidos, _fechaNacimiento, _intereses);
+                
+            }
+            
+           
+        }catch(Exception e){
+            System.out.println(e);
+        }
+
+        return ret;
+    }
 }
 

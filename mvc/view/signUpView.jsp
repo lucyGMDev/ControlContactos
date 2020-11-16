@@ -1,17 +1,15 @@
 <!DOCTYPE html>
-<style>
-  label
- {
-  display: inline-block;
-  width: 80em;
-}
-</style>
-
-
 <html lang="es">
     <head>
         <title>Página de registro</title>
         <meta charset="UTF-8"/>
+        <style>
+            label
+            {
+                display: inline-block;
+                width: 80em;
+            }
+        </style>
     </head>
     <body>
 

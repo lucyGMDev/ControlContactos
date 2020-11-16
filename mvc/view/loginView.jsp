@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<style>
-  label
- {
-  display: inline-block;
-  width: 80em;
-}
-</style>
+
 
 
 <html lang="es">
     <head>
         <title>Inicio de sesión</title>
         <meta charset="UTF-8"/>
+        <style>
+        label{
+            display: inline-block;
+            width: 80em;
+        }
+        </style>
     </head>
     <body>
 
